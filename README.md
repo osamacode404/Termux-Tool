@@ -12,7 +12,7 @@
 
 ## 🚀 طريقة التثبيت والاستخدام (Installation)
 ```bash
-git clone [https://github.com/osamacode404/Termux-Tool.git](https://github.com/osamacode404/Termux-Tool.git)
+git clone https://github.com/osamacode404/Termux-Tool.git
 cd Termux-Tool
 chmod +x Tool.sh
 ./Tool.sh
