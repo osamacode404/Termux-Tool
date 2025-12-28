@@ -44,6 +44,8 @@ echo -e "[ 3 ] » ${C}To display information about the owner of the tool${NC}"
 sleep 1
 echo -e "[ 4 ] » ${C}Play with Bash the Christmas game.!${NC}"
 sleep 1
+echo -e "[ 5 ] » ${C}Download any video from the internet using the video link.${NC}"
+sleep 1
 echo -e "[ 0 ] » ${C}To exit the tool..!${NC}"
 sleep 1
 echo ""
@@ -113,6 +115,15 @@ sleep 1
 echo -e "${G}Your birth year:${NC}${R}$natg${NC}"
 sleep 3
 clear
+
+
+elif [ "$num" == "5" ]; then
+    pip install yt-dlp rich &> /dev/null
+    python downloader.py
+    echo -e "\n${G}Returning to main menu...${NC}"
+    sleep 3
+    test2 
+
 
 elif [ "$num" == "0" ]; then
 echo ""
