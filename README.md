@@ -14,11 +14,11 @@
 
 
 ##  المكتبات المستخدمة(Libraries)
-```bash
-1_   os
-2_ yt-dlp
-3_ pathlib
-4_ time
+
+1_   os    
+2_ yt-dlp      
+3_ pathlib     
+4_ time     
 
 
 ## 🚀 طريقة التثبيت والاستخدام (Installation)
